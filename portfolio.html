@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delgado-ZERHEN.Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+</head>
+<body>
+<div id ="header">
+    <div class="container">
+        <nav>
+            <img src="zerhen.jpg" class ="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#profile">Profiles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Student in University of Cebu</p>
+            <h1>Hi, I'm Zerhen G. Delgado</h1>
+        </div>
+    </div>
+</div>
+<!----------about------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+                <img src="delgado.jpg">
+        </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Hello! My name is Zerhen Delgado, currently a junior at University of cEBU. I am working towards a Information of Teachnoly. 
+                I was born in Cebu City,I live in Susco Limkaking Guadalupe.My two favorite hobbies are playing video games and Drawing. 
+                I work at the Student Success Center at ODU as an Administrative Assistant. I also am involved with student organizations 
+                such as the Drawing Club in the Cebu.</p>
+                <div class="tab-titles">
+                    <p class="tab-links " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links " onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br>Java, C++, HTML, CSS, Javascript</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Administrative Assistant</span><br>Student in University of Cebu</li>
+                        <li><span>Intern</span><br>Concenterx</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Elementary School</span><br>Guadalupe Elementry School</li>
+                        <li><span>High School</span><br>Ramon Duterte Memorial National High School</li>
+                        <li><span>College</span><br>Highschool</li>
+                    </ul>
+                </div>
+          </div>  
+    </div>
+</div>
+<!----------Services------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="project-list">
+            <div>
+                <h2>Tic Tac Toe</h2>
+                <p>Designed, developed, and deployed a fully functional Tic-Tac-Toe game using 
+                HTML, CSS, and JavaScript, demonstrating proficiency in front-end web development.</p>
+                <a href="https://aidan-tictactoe.netlify.app/" target="_blank" rel="noopener noreferrer">Learn More</a>
+            </div>
+            <div>
+                <h2>MY First Project</h2>
+                <p>Collaborated in a team of 4 to develop a meme API generator using python and Linux Ubuntu 
+                    to design and implement features, debugging code, and creating the application.</p>
+                <a href="https://youtu.be/a-TwGbrBNTg" target="_blank" rel="noopener noreferrer">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------Profiles------------------->
+<div id="profile">
+    <div class="container">
+        <h1 class="sub-title">Profiles</h1>
+        <div class="profile-list">
+            <div>
+                <h2>My Facebook</h2>
+                <a href="https://www.facebook.com/zerhen.delgado.7?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">Learn More</a>
+            </div>
+            <div>
+                <h2>My Instagram</h2>
+                <a href="http://instagram.com/Zerhen_2004?fbclid=IwAR3avXcIGLvlW7f7ykcgKGfP5tO0ST9QEJIljTU0T9kRb7rZtA645n874o0" target="_blank" rel="noopener noreferrer">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------Contact------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>zerhendelgado16@gmail</p>
+            </div>
+            <div class="contact-right"></div>
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
